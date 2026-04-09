@@ -1,14 +1,23 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+Nama : Muhammad Agung 
+Nim  : 2501083013
+Diagram Class : 
+    +-------------------------------------+
+    |               AkunBank              |
+    +-------------------------------------+
+    | - noRekening : String               |
+    | - namaNasabah : String              |
+    | - saldo : double = 1000000          |
+    +-------------------------------------+
+    | + AkunBank(noRek, nama)             |
+    | + getNoRekening() : String          |
+    | + getNamaNasabah() : String         |
+    | + getSaldo() : double               |
+    | + deposit(jumlah: double) : void    |
+    | + withdraw(jumlah: double) : void   |
+    +-------------------------------------+
  */
 package com.mycompany.persegipanjangenkapsulasi;
-
-/**
- *
- * @author Agung
- */
-
 
 import java.util.Scanner;
 
